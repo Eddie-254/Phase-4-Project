@@ -1,4 +1,4 @@
-# Phase-4-Project
+# Time Series Prediction
 ![hottest-ZIP-codes-ranked](https://github.com/Eddie-254/Phase-4-Project/assets/40391537/ad54b578-49e0-437e-a36f-eecfea89336b)
 
 
