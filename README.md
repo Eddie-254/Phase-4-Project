@@ -30,7 +30,8 @@ The investment firm needs to determine the top five zip codes that present the b
 #### main objective:
 
 The main objective is to develop a forecasting model that can accurately predict real estate price movements in different zip codes and assist in identifying the most favorable locations for investment between the period of April 1996 to April 2018.
-specific objectives:
+
+#### specific objectives:
 
 * Assess and mitigate potential risks associated with market volatility and economic fluctuations.
 * Utilize time series analysis techniques to identify underlying patterns, trends, and seasonality in the real estate price data
