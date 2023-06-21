@@ -1,9 +1,9 @@
-# Time Series Prediction
-![hottest-ZIP-codes-ranked](https://github.com/Eddie-254/Phase-4-Project/assets/40391537/ad54b578-49e0-437e-a36f-eecfea89336b)
+# Phase-5-Project
+Top 5 best zip codes to invest using time series
 
 
-##### Contributors: [Paul Kamau](https://github.com/kamaupaul), [Hersi Yussuf](https://github.com/HersiYussuf), [Edwin Nderitu](https://github.com/Eddie-254), [Sharon Kimani](https://github.com/Sharonkimani), [Agape Gichuki](https://github.com/Muramati), [Beatrice Kirui](https://github.com/beatrice-kirui)
-## Table of contents 
+## Contributors: [Paul Kamau](https://github.com/kamaupaul), [Hersi Yussuf](https://github.com/HersiYussuf), [Edwin Nderitu](https://github.com/Eddie-254), [Sharon Kimani](https://github.com/Sharonkimani), [Agape Gichuki](https://github.com/Muramati), [Beatrice Kirui](https://github.com/beatrice-kirui)
+### Table of contents 
 - [Business Understanding](#business-understanding)
 - [Data preparation](#data-preparation)
 - [Modeling](#modeling)
@@ -11,7 +11,7 @@
 
 ---
 
-## 1. Business Understanding
+# 1. Business Understanding
 ### Overview
 Real Estate Investment Firms provide comprehensive investment advisory services, including market research, property analysis, due diligence, financial modeling, and portfolio management. Our goal is to optimize investment decisions, mitigate risks, and ensure long-term success.
 
@@ -22,23 +22,25 @@ With long term value our investement strategies will focus on the ability to gen
 ### Problem Statement
 
 At Matawi Real Estate Investment firm we seek to identify the top five zip codes for potential investment opportunities. The firm aims to maximize return on investment by strategically selecting zip codes that exhibit strong growth potential and promising real estate market conditions. By leveraging data from Zillow Research,our firm intends to make data-driven investment decisions and optimize investment portfolio.
-
 The investment firm needs to determine the top five zip codes that present the best investment opportunities based on real estate market trends and historical data. We will conduct a comprehensive analysis of various factors, such as past price trends, growth rates, market demand, and other relevant indicators to identify zip codes with the highest potential for future price appreciation.
 
 ### Objectives
 
-#### main objective:
+Main objective:
 
-The main objective is to develop a forecasting model that can accurately predict real estate price movements in different zip codes and assist in identifying the most favorable locations for investment between the period of April 1996 to April 2018.
+The main objective is to develop a forecasting model that can accurately predict real estate price movements in different areas and assist in identifying the most favorable locations for investment between the period of April 1996 to April 2018.
 
-#### specific objectives:
+Specific objectives:
 
-* Assess and mitigate potential risks associated with market volatility and economic fluctuations.
-* Utilize time series analysis techniques to identify underlying patterns, trends, and seasonality in the real estate price data
-* Build a time series predictive model that can forecast real estate prices for various zip codes
-* Evaluate the forecasting model's performance by comparing its predictions against actual real estate prices
+To assess and mitigate potential risks associated with market volatility and economic fluctuations.
+To Utilize time series analysis techniques to identify underlying patterns, trends, and seasonality in the real estate price data
+To Build a time series predictive model that can forecast real estate prices.
+To Evaluate the forecasting model's performance by comparing its predictions against actual real estate prices
+To forecast house prices in the next subsequent years.
+------
 
-## 2. Data Understanding
+# 2. Data Understanding
+
 ### Overview
 The dataset used in this project consists of historic median house prices from various regions in the USA. It covers a time period of 22 years, specifically from April 1996 to April 2018. The dataset was obtained from the Zillow website. [Zillow website](https://github.com/learn-co-curriculum/dsc-phase-4-choosing-a-dataset/blob/main/time-series/zillow_data.csv) 
 
@@ -60,32 +62,60 @@ This data contains 272 columns and 14,723 rows. It has the following columns and
 `Size Rank`: The ranking of the zip codes based on urbanization.
 
 ------
-## 3. Data Preparation
+# 3. Data Preparation
 Within our data preparation phase, we performed the following tasks:
 * Clean Data
 * Checking Duplicates
 * Filled Missing Values
+* Feature Engineering 
     
 ------
-## 4. Modeling
+# 4. EDA
+The following analysis were performed on the data:
+* Univariate Analysis
+* Bivariate Analysis
+* Multi Variate Analysis
+
+------
+# 5. Modeling
+Time series modeling was chosen as it refers to building a machine learning model that can auto-generate future predictions based on existing or historical data which was out dataset.
 The models include;
-* Auto Regressive model(AR)
-* ARMA model
+* Auto Regressive model(Base Model)
 * ARIMA model
 * SARIMA model
 
 -------
-## 5. Evaluation 
-while the AIC provides a measure of model complexity, the RMSE assesses predictive accuracy. If the SARIMA model exhibits a lower RMSE despite a higher AIC, it indicates improved forecasting performance and can be considered the better model.
+# 5. Evaluation 
+Our success metric is the Root Mean Squared Error. The ARMA model has the lowest AIC, BIC and RMSE hence we will use this model for forecasting.
+-------
 
+# 6. Conclusions
+* The housing market in New York, Los Angeles, and other top cities, states, metros, and counties demonstrates high activity and asignificant number of houses.
 
-## 6. Conclusion
+* Return on investment (ROI) and house prices exhibit positively skewed distributions, with outliers indicating higher returns and extremely high-priced houses.
 
+* There is a strong positive relationship between ROI and the coefficient of variation (CV), implying that higher risk is associated with higher returns.
+
+* New York consistently stands out as the location with the highest ROI across different levels of analysis, such as states, metros, and counties.
+
+* San Francisco, Los Angeles, and other specific cities, states, metros, and counties offer a combination of high ROI and lower risk, making them attractive for real estate investment.
 
 
 ---
 
-## 7. Recommmendations
+# 7. Recommmendations
+* Consider investing in real estate in New York, particularly in cities like San Francisco and Los Angeles, which have shown high ROI and relatively lower risk.
 
+* Focus on short-term investment opportunities to capitalize on the predicted high increment in house prices for the next year.
+
+* Adopt a conservative approach during the anticipated high decrement period of the following three years and carefully assess market conditions before making major investments.
+
+* Consider selling properties at their peak value before the reduced increment period to maximize profits and mitigate potential losses.
+
+* Diversify the portfolio across different locations and property types to spread risk and minimize exposure to market downturns.
+
+* Monitor the real estate market closely, staying updated on trends, economic indicators, and regulatory developments to make informed decisions.
+
+* Mitigate risks through thorough due diligence, assessing property quality, and conducting proper market research.
 ---
  
