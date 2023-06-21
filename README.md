@@ -14,16 +14,20 @@
 
 ## 1. Business Understanding
 ### Overview
-Real Estate Investment Firms provide comprehensive investment advisory services, including market research, property analysis, due diligence, financial modeling, and portfolio management. Our goal is to optimize investment decisions, mitigate risks, and ensure long-term success.
+Real Estate Investment Firms provide comprehensive investment advisory services, including market research, property analysis, due diligence, financial modeling, and portfolio management.
+Our goal is to optimize investment decisions, mitigate risks, and ensure long-term success.
 
-The primary focus of this project is to identify opportunities in real estate markets and capitalize on them to generate significant profits. We will carefully assess and mitigate risks associated with each investment in relation to zipcodes, based on some factors like market volatility. We will conduct a market analysis to identify areas of high demand and growth for optimal investment and prioritize investments with potential substantial returns based on factors like property appreciation and market demand.
+The primary focus of this project is to identify opportunities in real estate markets and capitalize on them to generate significant profits. We will carefully assess and mitigate risks associated with each investment based on some factors like market volatility.
+We will conduct a market analysis to identify areas of high demand and growth for optimal investment and prioritize investments with potential substantial returns based on factors like property appreciation and market demand.
 
-With long-term value, our investment strategies will focus on the ability to generate consistent cashflows over time. Real Estate Firms can achieve long-term partnerships with clients by achieving their financial objectives through successful real estate investments.
+With long-term value, our investment strategies will focus on the ability to generate consistent cashflows overtime. Real Estate Firms can achieve long-term partnerships with clients by achieving their financial objectives through successful real estate investments.
+
 
 ### Problem Statement
 
-At Matawi Real Estate Investment firm we seek to identify the top five zip codes for potential investment opportunities. The firm aims to maximize return on investment by strategically selecting zip codes that exhibit strong growth potential and promising real estate market conditions. By leveraging data from Zillow Research, our firm intends to make data-driven investment decisions and optimize investment portfolio.
-The investment firm needs to determine the top five zip codes that present the best investment opportunities based on real estate market trends and historical data. We will conduct a comprehensive analysis of various factors, such as past price trends, growth rates, market demand, and other relevant indicators to identify zip codes with the highest potential for future price appreciation.
+At Matawi Real Estate Investment firm we seek to identify the top five areas for potential investment opportunities. The firm aims to maximize return on investment by strategically selecting areas that exhibit strong growth potential and promising real estate market conditions. By leveraging data from Zillow Research, our firm intends to make data-driven investment decisions and optimize investment portfolio.
+
+The investment firm needs to determine the top five areas that present the best investment opportunities based on real estate market trends and historical data. We will conduct a comprehensive analysis of various factors, such as past price trends, growth rates, market demand, and other relevant indicators to identify the areas with the highest potential for future price appreciation.
 
 ### Objectives
 
@@ -88,7 +92,7 @@ The models include;
 
 -------
 ## 5. Evaluation 
-Our success metric is the Root Mean Squared Error. The ARMA model has the lowest AIC, BIC and RMSE hence we will use this model for forecasting.
+Our success metrics are; Root Mean Squared Error, AIC and BIC. The ARMA model has the lowest AIC, BIC and RMSE hence we will use this model for forecasting.
 
 
 ## 6. Conclusions
