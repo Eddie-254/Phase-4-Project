@@ -92,7 +92,7 @@ The models include;
 
 -------
 ## 5. Evaluation 
-Our success metric is the Root Mean Squared Error. The ARMA model has the lowest AIC, BIC and RMSE hence we will use this model for forecasting.
+Our success metrics are; Root Mean Squared Error AIC and BIC. The ARMA model has the lowest AIC, BIC and RMSE hence we will use this model for forecasting.
 
 
 ## 6. Conclusions
