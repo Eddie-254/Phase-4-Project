@@ -1,8 +1,8 @@
 # Phase-4-Project
-### Top 5 best zip codes to invest using time series
+## Top 5 best zip codes to invest using time series
 
 
-#### Contributors: [Paul Kamau](https://github.com/kamaupaul), [Hersi Yussuf](https://github.com/HersiYussuf), [Edwin Nderitu](https://github.com/Eddie-254), [Sharon Kimani](https://github.com/Sharonkimani), [Agape Gichuki](https://github.com/Muramati), [Beatrice Kirui](https://github.com/beatrice-kirui)
+##### Contributors: [Paul Kamau](https://github.com/kamaupaul), [Hersi Yussuf](https://github.com/HersiYussuf), [Edwin Nderitu](https://github.com/Eddie-254), [Sharon Kimani](https://github.com/Sharonkimani), [Agape Gichuki](https://github.com/Muramati), [Beatrice Kirui](https://github.com/beatrice-kirui)
 ## Table of contents 
 - [Business Understanding](#business-understanding)
 - [Data preparation](#data-preparation)
@@ -32,10 +32,10 @@ The investment firm needs to determine the top five zip codes that present the b
 The main objective is to develop a forecasting model that can accurately predict real estate price movements in different zip codes and assist in identifying the most favorable locations for investment between the period of April 1996 to April 2018.
 specific objectives:
 
-To assess and mitigate potential risks associated with market volatility and economic fluctuations.
-To Utilize time series analysis techniques to identify underlying patterns, trends, and seasonality in the real estate price data
-To Build a time series predictive model that can forecast real estate prices for various zip codes
-To Evaluate the forecasting model's performance by comparing its predictions against actual real estate prices
+* Assess and mitigate potential risks associated with market volatility and economic fluctuations.
+* Utilize time series analysis techniques to identify underlying patterns, trends, and seasonality in the real estate price data
+* Build a time series predictive model that can forecast real estate prices for various zip codes
+* Evaluate the forecasting model's performance by comparing its predictions against actual real estate prices
 
 ## 2. Data Understanding
 ### Overview
