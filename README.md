@@ -1,5 +1,5 @@
 # Phase-5-Project
-Top 5 best zip codes to invest using time series
+### Top 5 best zip codes to invest using time series
 
 
 #### Contributors: [Paul Kamau](https://github.com/kamaupaul), [Hersi Yussuf](https://github.com/HersiYussuf), [Edwin Nderitu](https://github.com/Eddie-254), [Sharon Kimani](https://github.com/Sharonkimani), [Agape Gichuki](https://github.com/Muramati), [Beatrice Kirui](https://github.com/beatrice-kirui)
