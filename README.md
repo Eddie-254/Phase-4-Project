@@ -1,8 +1,10 @@
 # Phase-5-Project: Zillow Dataset Time Series
+![hottest-ZIP-codes-ranked](https://github.com/Eddie-254/Phase-4-Project/assets/40391537/6e6a18e9-43bc-42c3-aad8-5e4566322102)
 
 
- Contributors: [Paul Kamau](https://github.com/kamaupaul), [Hersi Yussuf](https://github.com/HersiYussuf), [Edwin Nderitu](https://github.com/Eddie-254), [Sharon Kimani](https://github.com/Sharonkimani), [Agape Gichuki](https://github.com/Muramati), [Beatrice Kirui](https://github.com/beatrice-kirui)
-### Table of contents 
+
+ ##### Contributors: [Paul Kamau](https://github.com/kamaupaul), [Hersi Yussuf](https://github.com/HersiYussuf), [Edwin Nderitu](https://github.com/Eddie-254), [Sharon Kimani](https://github.com/Sharonkimani), [Agape Gichuki](https://github.com/Muramati), [Beatrice Kirui](https://github.com/beatrice-kirui)
+## Table of contents 
 - [Business Understanding](#business-understanding)
 - [Data preparation](#data-preparation)
 - [Modeling](#modeling)
@@ -10,26 +12,26 @@
 
 ---
 
-# 1. Business Understanding
+## 1. Business Understanding
 ### Overview
 Real Estate Investment Firms provide comprehensive investment advisory services, including market research, property analysis, due diligence, financial modeling, and portfolio management. Our goal is to optimize investment decisions, mitigate risks, and ensure long-term success.
 
-The primary focus of this project is to identify opportunities in real estate markets and capitalize them to generate significant profits. We will carefully assess and mitigate risks associated with each investment in relation to zipcodes, based on some factors like market volatility. We will conduct a market analysis to identify areas of high demand and growth for optimal investment and prioritize investments with the potential substantial returns based on factors like property appreciation and market demand.
+The primary focus of this project is to identify opportunities in real estate markets and capitalize on them to generate significant profits. We will carefully assess and mitigate risks associated with each investment in relation to zipcodes, based on some factors like market volatility. We will conduct a market analysis to identify areas of high demand and growth for optimal investment and prioritize investments with potential substantial returns based on factors like property appreciation and market demand.
 
-With long term value our investement strategies will focus on the ability to generate consistent cashflows overtime. Real Estate Firms can achieve a long-term partnerships with clients by achieving their financial objectives through successful real estate investments.
+With long-term value, our investment strategies will focus on the ability to generate consistent cashflows over time. Real Estate Firms can achieve long-term partnerships with clients by achieving their financial objectives through successful real estate investments.
 
 ### Problem Statement
 
-At Matawi Real Estate Investment firm we seek to identify the top five zip codes for potential investment opportunities. The firm aims to maximize return on investment by strategically selecting zip codes that exhibit strong growth potential and promising real estate market conditions. By leveraging data from Zillow Research,our firm intends to make data-driven investment decisions and optimize investment portfolio.
+At Matawi Real Estate Investment firm we seek to identify the top five zip codes for potential investment opportunities. The firm aims to maximize return on investment by strategically selecting zip codes that exhibit strong growth potential and promising real estate market conditions. By leveraging data from Zillow Research, our firm intends to make data-driven investment decisions and optimize investment portfolio.
 The investment firm needs to determine the top five zip codes that present the best investment opportunities based on real estate market trends and historical data. We will conduct a comprehensive analysis of various factors, such as past price trends, growth rates, market demand, and other relevant indicators to identify zip codes with the highest potential for future price appreciation.
 
 ### Objectives
 
-Main objective:
+#### Main objective:
 
 * The main objective is to develop a forecasting model that can accurately predict real estate price movements in different areas and assist in identifying the most favorable locations for investment between the period of April 1996 to April 2018.
 
-Specific objectives:
+#### Specific objectives:
 
 * To assess and mitigate potential risks associated with market volatility and economic fluctuations.
 * To Utilize time series analysis techniques to identify underlying patterns, trends, and seasonality in the real estate price data
@@ -38,7 +40,7 @@ Specific objectives:
 * To forecast house prices in the next subsequent years.
 
 
-# 2. Data Understanding
+## 2. Data Understanding
 
 ### Overview
 The dataset used in this project consists of historic median house prices from various regions in the USA. It covers a time period of 22 years, specifically from April 1996 to April 2018. The dataset was obtained from the Zillow website. [Zillow website](https://github.com/learn-co-curriculum/dsc-phase-4-choosing-a-dataset/blob/main/time-series/zillow_data.csv) 
@@ -61,7 +63,7 @@ This data contains 272 columns and 14,723 rows. It has the following columns and
 `Size Rank`: The ranking of the zip codes based on urbanization.
 
 ------
-# 3. Data Preparation
+## 3. Data Preparation
 Within our data preparation phase, we performed the following tasks:
 * Clean Data
 * Checking Duplicates
@@ -69,27 +71,27 @@ Within our data preparation phase, we performed the following tasks:
 * Feature Engineering 
     
 ------
-# 4. EDA
-The following analysis were performed on the data:
+## 4. EDA
+The following analysis was performed on the data:
 * Univariate Analysis
 * Bivariate Analysis
-* Multi Variate Analysis
+* Multi-Variate Analysis
 * Time Series Analysis
 
 ------
-# 5. Modeling
-Time series modeling was chosen as it refers to building a machine learning model that can auto-generate future predictions based on existing or historical data which was out dataset.
+## 5. Modeling
+Time series modeling was chosen as it refers to building a machine learning model that can auto-generate future predictions based on existing or historical data which was our dataset.
 The models include;
 * Auto Regressive model(Base Model)
 * ARIMA model
 * SARIMA model
 
 -------
-# 5. Evaluation 
+## 5. Evaluation 
 Our success metric is the Root Mean Squared Error. The ARMA model has the lowest AIC, BIC and RMSE hence we will use this model for forecasting.
--------
 
-# 6. Conclusions
+
+## 6. Conclusions
 * The housing market in New York, Los Angeles, and other top cities, states, metros, and counties demonstrates high activity and asignificant number of houses.
 
 * Return on investment (ROI) and house prices exhibit positively skewed distributions, with outliers indicating higher returns and extremely high-priced houses.
@@ -103,7 +105,7 @@ Our success metric is the Root Mean Squared Error. The ARMA model has the lowest
 
 ---
 
-# 7. Recommmendations
+## 7. Recommendations
 * Consider investing in real estate in New York, particularly in cities like San Francisco and Los Angeles, which have shown high ROI and relatively lower risk.
 
 * Focus on short-term investment opportunities to capitalize on the predicted high increment in house prices for the next year.
