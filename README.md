@@ -1,6 +1,5 @@
-# Phase-4-Project![What_are_real_estate_comps](https://github.com/Eddie-254/Phase-4-Project/assets/40391537/391fcf55-f735-4e32-8b2e-0d8ec21fe6d9)
-
-## Top 5 best zip codes to invest using time series
+# Phase-4-Project
+![hottest-ZIP-codes-ranked](https://github.com/Eddie-254/Phase-4-Project/assets/40391537/ad54b578-49e0-437e-a36f-eecfea89336b)
 
 
 ##### Contributors: [Paul Kamau](https://github.com/kamaupaul), [Hersi Yussuf](https://github.com/HersiYussuf), [Edwin Nderitu](https://github.com/Eddie-254), [Sharon Kimani](https://github.com/Sharonkimani), [Agape Gichuki](https://github.com/Muramati), [Beatrice Kirui](https://github.com/beatrice-kirui)
