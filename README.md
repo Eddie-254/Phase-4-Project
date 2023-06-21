@@ -2,8 +2,8 @@
 Top 5 best zip codes to invest using time series
 
 
-## Contributors: [Paul Kamau](https://github.com/kamaupaul), [Hersi Yussuf](https://github.com/HersiYussuf), [Edwin Nderitu](https://github.com/Eddie-254), [Sharon Kimani](https://github.com/Sharonkimani), [Agape Gichuki](https://github.com/Muramati), [Beatrice Kirui](https://github.com/beatrice-kirui)
-### Table of contents 
+#### Contributors: [Paul Kamau](https://github.com/kamaupaul), [Hersi Yussuf](https://github.com/HersiYussuf), [Edwin Nderitu](https://github.com/Eddie-254), [Sharon Kimani](https://github.com/Sharonkimani), [Agape Gichuki](https://github.com/Muramati), [Beatrice Kirui](https://github.com/beatrice-kirui)
+## Table of contents 
 - [Business Understanding](#business-understanding)
 - [Data preparation](#data-preparation)
 - [Modeling](#modeling)
@@ -11,7 +11,7 @@ Top 5 best zip codes to invest using time series
 
 ---
 
-# 1. Business Understanding
+## 1. Business Understanding
 ### Overview
 Real Estate Investment Firms provide comprehensive investment advisory services, including market research, property analysis, due diligence, financial modeling, and portfolio management. Our goal is to optimize investment decisions, mitigate risks, and ensure long-term success.
 
@@ -24,11 +24,10 @@ With long term value our investement strategies will focus on the ability to gen
 At Matawi Real Estate Investment firm we seek to identify the top five zip codes for potential investment opportunities. The firm aims to maximize return on investment by strategically selecting zip codes that exhibit strong growth potential and promising real estate market conditions. By leveraging data from Zillow Research,our firm intends to make data-driven investment decisions and optimize investment portfolio.
 
 The investment firm needs to determine the top five zip codes that present the best investment opportunities based on real estate market trends and historical data. We will conduct a comprehensive analysis of various factors, such as past price trends, growth rates, market demand, and other relevant indicators to identify zip codes with the highest potential for future price appreciation.
-------
 
 ### Objectives
 
-main objective:
+#### main objective:
 
 The main objective is to develop a forecasting model that can accurately predict real estate price movements in different zip codes and assist in identifying the most favorable locations for investment between the period of April 1996 to April 2018.
 specific objectives:
@@ -77,7 +76,7 @@ The models include;
 -------
 # 5. Evaluation 
 while the AIC provides a measure of model complexity, the RMSE assesses predictive accuracy. If the SARIMA model exhibits a lower RMSE despite a higher AIC, it indicates improved forecasting performance and can be considered the better model.
--------
+
 
 # 6. Conclusion
 
