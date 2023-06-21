@@ -37,7 +37,7 @@ To Utilize time series analysis techniques to identify underlying patterns, tren
 To Build a time series predictive model that can forecast real estate prices for various zip codes
 To Evaluate the forecasting model's performance by comparing its predictions against actual real estate prices
 
-# 2. Data Understanding
+## 2. Data Understanding
 ### Overview
 The dataset used in this project consists of historic median house prices from various regions in the USA. It covers a time period of 22 years, specifically from April 1996 to April 2018. The dataset was obtained from the Zillow website. [Zillow website](https://github.com/learn-co-curriculum/dsc-phase-4-choosing-a-dataset/blob/main/time-series/zillow_data.csv) 
 
@@ -59,14 +59,14 @@ This data contains 272 columns and 14,723 rows. It has the following columns and
 `Size Rank`: The ranking of the zip codes based on urbanization.
 
 ------
-# 3. Data Preparation
+## 3. Data Preparation
 Within our data preparation phase, we performed the following tasks:
 * Clean Data
 * Checking Duplicates
 * Filled Missing Values
     
 ------
-# 4. Modeling
+## 4. Modeling
 The models include;
 * Auto Regressive model(AR)
 * ARMA model
@@ -74,17 +74,17 @@ The models include;
 * SARIMA model
 
 -------
-# 5. Evaluation 
+## 5. Evaluation 
 while the AIC provides a measure of model complexity, the RMSE assesses predictive accuracy. If the SARIMA model exhibits a lower RMSE despite a higher AIC, it indicates improved forecasting performance and can be considered the better model.
 
 
-# 6. Conclusion
+## 6. Conclusion
 
 
 
 ---
 
-# 7. Recommmendations
+## 7. Recommmendations
 
 ---
  
