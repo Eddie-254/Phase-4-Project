@@ -1,4 +1,5 @@
-# Phase-4-Project
+# Phase-4-Project![What_are_real_estate_comps](https://github.com/Eddie-254/Phase-4-Project/assets/40391537/391fcf55-f735-4e32-8b2e-0d8ec21fe6d9)
+
 ## Top 5 best zip codes to invest using time series
 
 
