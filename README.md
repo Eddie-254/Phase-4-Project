@@ -25,9 +25,17 @@ With long-term value, our investment strategies will focus on the ability to gen
 
 ### Problem Statement
 
-At Matawi Real Estate Investment firm we seek to identify the top five areas for potential investment opportunities. The firm aims to maximize return on investment by strategically selecting areas that exhibit strong growth potential and promising real estate market conditions. By leveraging data from Zillow Research, our firm intends to make data-driven investment decisions and optimize investment portfolio.
+At Matawi Real Estate Investment firm, the key problem is to identify the top five areas that present the best
+investment opportunities in the real estate market. The firm aims to maximize return on investment by
+strategically selecting areas with strong growth potential and favorable real estate market conditions.
 
-The investment firm needs to determine the top five areas that present the best investment opportunities based on real estate market trends and historical data. We will conduct a comprehensive analysis of various factors, such as past price trends, growth rates, market demand, and other relevant indicators to identify the areas with the highest potential for future price appreciation.
+To address this problem, the firm needs to leverage data from trusted sources like Zillow Research and
+conduct a comprehensive analysis of various factors. These factors include past price trends, growth rates,
+market demand, and other relevant indicators to determine the areas with the highest potential for future
+price appreciation.
+
+By making data-driven investment decisions based on the analysis, the firm aims to optimize its investment
+portfolio and achieve maximum returns for its clients.
 
 ### Objectives
 
